@@ -1,0 +1,311 @@
+/* Add your styles here */
+
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap");
+
+.jost-500 {
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+
+  font-family: "Jost", arial;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: white;
+  font-size: 18px;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+  font-size: 64px;
+  margin: 15px 0;
+}
+h2 {
+  font-size: 36px;
+  margin: 14px 0 34px 0;
+  font-size: 32px;
+}
+h1,
+h2,
+h3 {
+  text-align: center;
+  line-height: 30px;
+}
+h3 {
+  margin: 0px;
+  font-weight: 400;
+  font-size: 30px;
+}
+
+a {
+  color: white;
+}
+
+main {
+  margin: 0 auto;
+  width: 930px;
+  height: 1437px;
+  position: relative;
+
+  background: #e6f9ff;
+  box-shadow: inset 0px 0px 250px #79bed5;
+  border-radius: 80px;
+
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+main > div:not(:nth-child(3)) {
+  padding: 0 20px;
+}
+
+main > div:nth-child(n + 7) {
+  align-self: end;
+}
+
+.thought {
+  position: absolute;
+  top: 275px;
+  left: 356px;
+}
+
+/* Group 9 */
+.photo-card {
+  position: relative;
+  width: 440px;
+  height: 591px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.photo-card > img {
+  position: absolute;
+  top: -7%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.card1 {
+  background: 0 -5px url("https://raw.githubusercontent.com/molodoymuzan/file2/6bef00457b884df5d5db6b78879f8187c29bce52/Облако%201.svg")
+      no-repeat,
+    #4c92a9;
+
+  width: 440px;
+  height: 194px;
+  left: 80px;
+
+  border: 5px solid #ffffff;
+  box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.8);
+  border-radius: 60px;
+}
+
+.card2 {
+  /* Mask group */
+
+  /* Rectangle 1 */
+  background: 0 -5px url("https://raw.githubusercontent.com/molodoymuzan/file2/98cedc28bd80d0a4d9efa81d95953667c86f7e7d/Облако2.svg")
+      no-repeat,
+    #4c92a9;
+
+  width: 440px;
+  height: 376px;
+
+  border: 5px solid #ffffff;
+  box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.8);
+  border-radius: 60px;
+}
+.card2 ul {
+  margin-top: 140px;
+  padding-left: 10px;
+}
+.card2 li {
+  height: 60px;
+  margin-bottom: -15px;
+  display: flex;
+  align-items: center;
+}
+
+/* Rectangle 20 */
+.card3 {
+  width: 440px;
+  height: 185px;
+  background: -11px -12px url("https://raw.githubusercontent.com/molodoymuzan/file2/6bef00457b884df5d5db6b78879f8187c29bce52/Облако%203.svg")
+      no-repeat,
+    #4c92a9;
+
+  border: 5px solid #ffffff;
+  box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.8);
+  border-radius: 60px;
+}
+
+.card4 {
+  /* Rectangle 20 */
+
+  width: 440px;
+  height: 178px;
+  background: -15px -12px url("https://raw.githubusercontent.com/molodoymuzan/file2/6bef00457b884df5d5db6b78879f8187c29bce52/Облако%204.svg")
+      no-repeat,
+    #4c92a9;
+
+  border: 5px solid #ffffff;
+  box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.8);
+  border-radius: 60px;
+}
+
+.card5 {
+  /* Rectangle 20 */
+
+  width: 440px;
+  height: 177px;
+  background: -11px -12px url("https://raw.githubusercontent.com/molodoymuzan/file2/6bef00457b884df5d5db6b78879f8187c29bce52/Облако%205.svg")
+      no-repeat,
+    #4c92a9;
+
+  border: 5px solid #ffffff;
+  box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.8);
+  border-radius: 60px;
+}
+
+.card6 {
+  /* Rectangle 17 */
+
+  width: 440px;
+  height: 347px;
+  background: -14px -13px url("https://raw.githubusercontent.com/molodoymuzan/file2/6bef00457b884df5d5db6b78879f8187c29bce52/Облако%206.svg")
+      no-repeat,
+    #4c92a9;
+
+  border: 5px solid #ffffff;
+  box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.8);
+  border-radius: 60px;
+}
+
+.card6 > h2 {
+  text-align: left;
+  margin: 14px 0 40px 0;
+}
+
+.card7 {
+  /* Rectangle 19 */
+
+  width: 440px;
+  height: 376px;
+  background: -14px -13px url("https://raw.githubusercontent.com/molodoymuzan/file2/6bef00457b884df5d5db6b78879f8187c29bce52/Облако%207.svg")
+      no-repeat,
+    #4c92a9;
+
+  border: 5px solid #ffffff;
+  box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.8);
+  border-radius: 60px;
+
+  position: relative;
+}
+
+.card7 h2 {
+  margin: 14px 0 48px 0;
+}
+
+.line-education {
+  position: absolute;
+  top: 96px;
+}
+
+.card7 > dl {
+  padding-left: 30px;
+}
+.card7 dt {
+  font-weight: 600;
+  margin-top: 20px;
+  font-size: 20px;
+}
+.card7 dd {
+  margin: unset;
+}
+
+.card8 {
+  /* Rectangle 20 */
+
+  width: 440px;
+  height: 306px;
+  background: -14px -13px url("https://raw.githubusercontent.com/molodoymuzan/file2/6bef00457b884df5d5db6b78879f8187c29bce52/Облако%208.svg")
+      no-repeat,
+    #4c92a9;
+
+  border: 5px solid #ffffff;
+  box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.8);
+  border-radius: 60px;
+}
+
+.card9 {
+  /* Rectangle 20 */
+
+  width: 440px;
+  height: 275px;
+  background: -14px -13px url("https://raw.githubusercontent.com/molodoymuzan/file2/6bef00457b884df5d5db6b78879f8187c29bce52/Облако%209.svg")
+      no-repeat,
+    #4c92a9;
+
+  border: 5px solid #ffffff;
+  box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.8);
+  border-radius: 60px;
+}
+
+.progress-bar__container {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+.progress-bar__container:not(:last-child) {
+  margin-bottom: 20px;
+}
+.progress {
+  flex-grow: 1;
+  border: #ffffff 4px solid;
+  height: 30px;
+  padding: 2px;
+  display: flex;
+  align-items: center;
+  filter: drop-shadow(1px 1px 3px rgba(0, 0, 0, 0.4));
+}
+.progress-bar {
+  background-color: white;
+  height: 18px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+.progress,
+.progress-bar {
+  border-radius: 20px;
+}
+
+.image-display {
+  text-align: center;
+}
+
+.image-display > img {
+  margin: 0 -16px;
+}
+.search-bar {
+  height: 40px;
+  background-color: #79bed5;
+  border: 2px solid #ffffff;
+  border-radius: 20px;
+  box-shadow: 0px 0px 6.7px rgba(0, 0, 0, 0.25);
+  padding: 0 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search-bar > img {
+  height: 100%;
+}
